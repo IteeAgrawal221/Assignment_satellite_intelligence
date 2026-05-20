@@ -53,4 +53,4 @@ Data Engineer Assignment – Satellite Intelligence  - Carnot Technologies
 	Likely Silent Break
 		• Date parsing — new formats creeping in.
 		• Sensor status drift — new unexpected values.
-Parcel ID mismatches — new parcels not in metadata.
+		• Parcel ID mismatches — new parcels not in metadata.
