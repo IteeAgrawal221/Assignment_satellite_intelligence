@@ -6,7 +6,7 @@ Data Engineer Assignment – Satellite Intelligence  - Carnot Technologies
 				□ Issue: NDVI should be between -1 and 1. Values like 1.832, 1.817, 1.743, 1.665, -1.677, -1.163, -1.492, -1.024 are invalid.
 				□ Frequency: ~40+ occurrences across parcels.
 				□ Impact: Critical — invalid NDVI breaks vegetation analysis and trend modelling.
-				□ Solution :- drop and strictly before ingestion.
+				□ Solution :- drop and strictly validation before ingestion.
 				
 			§ Sensor_status inconsistency:-
 				□ Issue: Sensor status values are inconsistent (OK, ok, Error, error, NaN, blank, NA).
